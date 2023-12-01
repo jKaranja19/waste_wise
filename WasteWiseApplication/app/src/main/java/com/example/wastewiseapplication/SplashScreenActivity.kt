@@ -23,9 +23,9 @@ class SplashScreenActivity : AppCompatActivity() {
         // to send a message with a delayed time.
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, MapsActivity::class.java)
             startActivity(intent)
             finish()
-        }, 3000) // 3500 is the delayed time in milliseconds.
+        }, 20) // 2300 is the delayed time in milliseconds.
     }
 }

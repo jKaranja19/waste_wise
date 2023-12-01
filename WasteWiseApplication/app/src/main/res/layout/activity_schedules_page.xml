@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/garbage_collection"
+    tools:context=".HomePage">
+
+
+
+
+    <TextView
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Schedules Page"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/green"
+        android:src="@drawable/arrow_icon" />
+
+    <TextView
+        android:layout_width="470dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Current Schedules"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="430dp"
+        android:background="#FAFAFA">
+
+        <!-- Header Row -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Day"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:background="@drawable/rounded_bg"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Time"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:background="@drawable/rounded_bg"/>
+        </TableRow>
+
+        <!-- Data Rows -->
+        <!-- Add multiple TableRow entries for each schedule entry -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Sundays"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:background="@drawable/rounded_bg"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="10:30 AM - 12:30 PM"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:background="@drawable/rounded_bg"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Wednesdays"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:background="@drawable/rounded_bg"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="12:30 PM - 2:30 PM"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:background="@drawable/rounded_bg"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Fridays"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:background="@drawable/rounded_bg"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="10:30 AM - 12:30 PM"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:background="@drawable/rounded_bg"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Saturdays"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:background="@drawable/rounded_bg"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="8:30 AM - 12:30 PM"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:background="@drawable/rounded_bg"/>
+        </TableRow>
+
+
+
+    </TableLayout>
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="370dp"-->
+<!--        android:layout_height="320dp"-->
+<!--        android:layout_marginLeft="20dp"-->
+<!--        android:layout_marginTop="420dp"-->
+<!--        android:background="#FAFAFA"-->
+<!--        android:orientation="vertical">-->
+
+
+<!--        <TextView-->
+<!--            android:layout_width="370dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:background="@drawable/rounded_bg"-->
+<!--            android:padding="16dp"-->
+<!--            android:text="Disposing Glass:\n\nSeparate colored glass from clear glass, as they undergo different recycling processes. Avoid breaking glass, as intact pieces are easier to recycle. Place glass items into designated recycling bins to ensure proper processing"-->
+<!--            android:textColor="#000000"-->
+<!--            android:textSize="15sp" />-->
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/home_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Home" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/bell_notification" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Schedules" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/people_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Guide" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/map_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Centers" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/report_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Report" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

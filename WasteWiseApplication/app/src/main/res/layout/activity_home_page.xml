@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomePage">
+
+    <!--     Section For the details stuff -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_bg"
+        android:text="Logout" />
+
+    <TextView
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Home Page"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"></TextView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/opening_logo_" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:background="@drawable/rounded2_bg">
+
+
+        <TextView
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:padding="35dp"
+            android:text="My Details\n\nName: Cynthia Kiconco\n\Location: Nairobi West\nGender: Female"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="134dp"
+            android:layout_height="144dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/profile_icon" />
+
+
+    </LinearLayout>
+
+
+    <!--This section is for the buttons, home, guide, etc-->
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Notfications"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="523dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="15dp"
+        android:background="#FAFAFA"
+        android:orientation="vertical">
+
+        <!-- First group withButton -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="151dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="109dp"
+                android:background="@drawable/rounded_bg"
+                android:padding="16dp"
+                android:text="Disposal Guide.\n\nIf you wish to learn how to dispose various products, click the button below!\n\n"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Button
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_style"
+                android:text="Guide" />
+        </LinearLayout>
+
+        <!-- Second group with Report TextView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_bg"
+                android:padding="16dp"
+                android:text="Report Guide.\n\nTo ensure the cleanliness of our environment, we have a report sector where you can issue out any disposal issues."
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Button
+                android:layout_width="102dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_style"
+                android:text="Report" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/home_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Home" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/bell_notification" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Schedules" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/people_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Guide" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/map_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Centers" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@color/white"
+                android:src="@drawable/report_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/green"
+                android:paddingBottom="13dp"
+                android:text="Report" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
