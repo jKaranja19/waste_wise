@@ -16,7 +16,7 @@ WasteWise is an Android application built with Kotlin, designed to empower users
 
 ## Installation
 
-To install WasteWise on your Android device:
+To install WasteWise on your Android device follow the steps shown:
 
 1. **Clone the repository:**
     ```bash
