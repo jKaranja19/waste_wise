@@ -1,8 +1,4 @@
 # WasteWise
-<<<<<<< HEAD
-## About
-- The application is used to educate individuals on how to ensure the well being of the genral environment.
-=======
 
 WasteWise is an Android application built with Kotlin, designed to empower users to report issues related to waste disposal, promote awareness of proper waste management practices, and encourage the reduction, reuse, and recycling of materials.
 
